@@ -1,0 +1,25 @@
+/*!
+Theme Name:   Storefront Child
+Theme URI:    #
+Author:       Andrey Garkin
+Author URI:   #
+Description:  Storefront Child Theme
+Version:      0.0.1
+Text Domain:  storefront-child
+Template: Storefront
+*/
+
+.single-product div.product .product_meta .views,
+.single-product div.product .product_meta .purchase_date {
+    display: block; }
+
+
+ul.products li.product .views,
+ul.products .wc-block-grid__product .views,
+.wc-block-grid__products li.product .views,
+.wc-block-grid__products .wc-block-grid__product .views,
+ul.products li.product .purchase_date,
+ul.products .wc-block-grid__product .purchase_date,
+.wc-block-grid__products li.product .purchase_date,
+.wc-block-grid__products .wc-block-grid__product .purchase_date {
+    display: block;  }
